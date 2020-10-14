@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend curso MEAN Stack. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-cenan/curso-mean-stack-backend.git"
+  },
+  "author": "Alex Cenan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-cenan/curso-mean-stack-backend/issues"
+  },
+  "homepage": "https://github.com/alex-cenan/curso-mean-stack-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
