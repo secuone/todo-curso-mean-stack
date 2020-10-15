@@ -7,12 +7,12 @@
 MEAN - mongoDB, expressJS, Angular, nodeJS.
 
 Backend endpoints 
-|: Method:|: Path                    :|: Descripción                                      :|
-|:-------:|:-------------------------:|:--------------------------------------------------:|
-|: POST  :|: /api/auth/              :|: Login de usuario                                 :|
-|: POST  :|: /api/user/              :|: Crea un usuario                                  :|
-|: POST  :|: /api/task/              :|: Crea una tarea                                   :|
-|: POST  :|: /api/task/upload/       :|: Crea una tarea con imágen (utilizada por defecto):|
-|: GET   :|: /api/task/list/         :|: Listado de tareas                                :|
-|: PUT   :|: /api/task/              :|: Modifica una tarea                               :|
-|: DELETE:|: /api/task/:id           :|: Elimina una tarea                                :|
+| Method| Path                    | Descripción                                      |
+|-------|-------------------------|--------------------------------------------------|
+| POST  | /api/auth/              | Login de usuario                                 |
+| POST  | /api/user/              | Crea un usuario                                  |
+| POST  | /api/task/              | Crea una tarea                                   |
+| POST  | /api/task/upload/       | Crea una tarea con imágen (utilizada por defecto)|
+| GET   | /api/task/list/         | Listado de tareas                                |
+| PUT   | /api/task/              | Modifica una tarea                               |
+| DELETE| /api/task/:id           | Elimina una tarea                                |
