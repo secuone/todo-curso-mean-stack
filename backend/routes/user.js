@@ -17,7 +17,4 @@ router.post('/', async(req,res)=>{
     res.status(200).send({jwtToken})
 })
 
-router.get('/', async(req,res)=>{
-    document.write("funciono")
-})
 module.exports = router
